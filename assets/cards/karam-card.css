@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+.card-karam {
+    background-image: url('/assets/cards/karam-img/WhatsApp\ Image\ 2022-03-22\ at\ 12.40.06.jpeg');
+    background-size: 100%;
+
+}
+.karam-center-header {
+    margin-top: 1rem;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+.karam-p {
+    margin-left: 1rem;
+    margin-top: 10rem;
+    color: yellow;
+
+}
+
+.karam-profile_social i ,a {
+    margin-left: 1rem;
+    font-size: 2rem;
+    color: yellow;
+    text-decoration: none;
+}
