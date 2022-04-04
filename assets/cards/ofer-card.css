@@ -22,12 +22,14 @@
 }
 
 #o-frame .o-hx {
-  margin: 25px;
+  margin: 25px !important;
   font-family: 'Source Code Pro', monospace;
+  color: var(--dark-color) !important;
 }
 
 #o-frame a {
   cursor: pointer;
+  margin: 0;
 }
 
 .o-hero-img {
@@ -61,16 +63,25 @@
   border: 1px dashed black;
 }
 
+.o-btn span {
+  font-size: x-large;
+  line-height: 20px;
+}
+
 .o-btn {
   display: block;
   background-color: var(--dark-color);
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   margin: 5px 10px;
-  padding: 7px;
+  padding: 0 9px;
   /* border: 2px rgb(92, 92, 92) solid; */
   border-radius: 50%;
   transition: transform 0.5s ease;
+}
+
+.o-navbar-flex {
+  padding-top: 0;
 }
 
 .o-navbar-flex > ul {
