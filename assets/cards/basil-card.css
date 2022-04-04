@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.champ{
+  height: 100vh;
+  width: 100%;
+  background-image: url("/Basil-portfolio/Basil-imgs/person-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background:black;
+
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-left:10%;
+  padding-right: 10%;
+}
+
+.logo{
+  color:white;
+  font-size: 30px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+#porto-span{
+  color:royalblue;
+}
+
+.links{
+  list-style-type:none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.links a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.links a:hover{
+  color:royalblue;
+  transition:0.3s;
+}
+
+.btn{
+  background-color:royalblue;
+  color:white;
+  text-decoration: none;
+  border:2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform 0.3s;
+}
+.btn:hover{
+  transform: scale(1.3);
+}
+
+.content{
+  color:white;
+  top:40%;
+  left:5%;
+  position:absolute;
+  transform: translateY(-50%);
+}
+
+h1{
+  color:white;
+  margin:20px 0px 20px;
+  font-size: 50px;
+}
+h3{
+  color:white;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+h4{
+  color: rgb(138, 153, 199);
+}
