@@ -1,0 +1,89 @@
+:root {
+  --loght-color: #fafafa;
+  --dark-color: #444;
+  --yellow-color: #e8e527;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+#o-frame {
+  height: 100%;
+  width: 100%;
+  background-color: var(--loght-color);
+  padding-top: 20px;
+}
+
+.o-hero-img {
+  background: url('https://raw.githubusercontent.com/OferTauber/My-Utils/main/logo-p.png')
+    center center/contain no-repeat;
+  height: 150px;
+  width: 80%;
+  margin: auto;
+}
+
+#o-frame .o-hx {
+  margin: 25px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+#o-frame a {
+  cursor: pointer;
+}
+
+.o-hero-img {
+  transition: transform 0.5s ease;
+}
+.o-hero-img:hover {
+  opacity: 0.7;
+  transform: scale(1.12);
+}
+
+#o-frame h2 {
+  text-align: center;
+  margin-bottom: 400px;
+}
+
+@media (max-width: 375px) {
+  #o-frame {
+    padding: 15px;
+  }
+  #o-frame .o-hx {
+    margin: 10px auto;
+  }
+  .o-hero-img {
+    height: 100px;
+  }
+}
+
+#o-frame > div,
+#o-frame > div > div,
+#o-frame > div > div > div {
+  border: 1px dashed black;
+}
+
+.o-btn {
+  display: block;
+  background-color: var(--dark-color);
+  height: 30px;
+  width: 30px;
+  margin: 5px 10px;
+  padding: 7px;
+  /* border: 2px rgb(92, 92, 92) solid; */
+  border-radius: 50%;
+  transition: transform 0.5s ease;
+}
+
+.o-navbar-flex > ul {
+  max-width: 270px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.o-btn a {
+  color: var(--yellow-color);
+}
+
+.o-btn:hover {
+  transform: rotate(720deg);
+}

@@ -6,12 +6,20 @@
 
 .champ{
   height: 100vh;
+<<<<<<< HEAD
   width: 100%;
   background-image: url("/Basil-portfolio/Basil-imgs/person-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background:black;
 
+=======
+  width:100vw;
+  background-image:url("/assets/Basil-portfolio/profile-of-black-cat-against-black-background-CHPF00570.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+>>>>>>> cc67c9fc28f3cf52ddfb44cd7689c1f4ed910107
 }
 
 nav{
@@ -87,4 +95,29 @@ h3{
 
 h4{
   color: rgb(138, 153, 199);
+<<<<<<< HEAD
+=======
+  letter-spacing: 2px;
+}
+
+/* the group tags */
+.card-basil{
+  position: relative;
+  border:none
+}
+
+/* adding a picture */
+.b-img{
+  background: url("/assets/Basil-portfolio/person-1.jpg")
+    center center/contain no-repeat;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  position:absolute;
+}
+.b-img:hover{
+  transform: scale(1.1);
+  opacity: 80%;
+
+>>>>>>> cc67c9fc28f3cf52ddfb44cd7689c1f4ed910107
 }
