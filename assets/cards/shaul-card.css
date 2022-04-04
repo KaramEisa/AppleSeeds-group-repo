@@ -1,0 +1,26 @@
+
+  #shaulcard {
+      /* width: 100%; */
+      border: 5px red solid;
+      height: 100%;
+  }
+  .shaulimage {
+      background: url("../shaulimages/1648064400220.jpg") center center/cover;
+      width: 80%;
+      height: 80%;
+  }
+  .card-shaul {
+    /* Add shadows to create the "card" effect */
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    /* transition: 0.3s; */
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card-shaul:hover:hover {
+    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); */
+  }
+  
+  /* Add some padding inside the card container */
+  .container-shaul {
+    /* padding: 2px 16px; */
+  }
