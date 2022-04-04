@@ -1,0 +1,53 @@
+.card-amir {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.main-about-am {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.main-about-am img {
+  height: 100%;
+  width: 50%;
+}
+.about-text-am {
+  padding: 0 10px;
+}
+.about-text-am h2 {
+  font-size: 35px;
+  text-transform: capitalize;
+  margin: 10px 0;
+}
+.about-text-am h5 {
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+.about-text-am span {
+  color: #f9004d;
+}
+.about-text-am p {
+  color: rgba(165, 14, 165, 0.8);
+  letter-spacing: 0.5px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.about-text-am a {
+  background-color: #f9004d;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: 0.4s;
+  margin: 0 0 10px 30px;
+}
+.about-text-am a:hover {
+  background-color: transparent;
+  border: 2px solid #f9004d;
+  cursor: pointer;
+}
